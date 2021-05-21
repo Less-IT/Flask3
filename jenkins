@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh root@docker.unix.loc \'hostname\''
+                sh 'ssh root@docker.unix.loc \'docker ps\''
             }
         }
         stage("Second step") {
