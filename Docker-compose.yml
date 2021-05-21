@@ -1,1 +1,5 @@
-FROM python:3.6-slim
+version: '3'
+services:
+  flask:
+    build:
+    command: python -V
